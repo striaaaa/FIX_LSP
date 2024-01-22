@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.container-links {
+  margin-left: 10%;
+}
+
+.container-links:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-top: 10px;
+}
+
+.dropdown {
+  display: none;
+}
+
+.user {
+  font-size: 20px;
+  font-weight: 500;
+}
